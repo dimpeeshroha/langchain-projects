@@ -3,6 +3,8 @@ from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
+import ollama
+
 from langchain.chat_models import init_chat_model
 from langchain.tools import tool
 from langchain.messages import HumanMessage, SystemMessage, ToolMessage
