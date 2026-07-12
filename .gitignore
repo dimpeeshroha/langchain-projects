@@ -134,11 +134,11 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-
 # Environments
 .env
 .envrc
 .venv
+.chroma
 env/
 venv/
 ENV/
